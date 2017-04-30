@@ -1,0 +1,142 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.topcreative{
+	background: url('header.jpg');
+	height: 100vh;
+	color: white;
+	text-align: center;
+}
+.creative_text{
+	position: absolute;
+	margin-top: 40%;
+	transform: translateY(-50%);
+}
+.creative_text h1{
+	margin-bottom: 30px;
+	font-size: 45px;
+	font-weight: bolder;
+}
+.creative_text p{
+	margin-top: 30px;
+	margin-bottom: 5%;
+	font-size: 20px;
+}
+.btn-coral{
+	color: #fff;
+	background-color: coral;
+	border-color: coral;
+	border-radius: 35px;
+	padding: 5px;
+	width: 150px;
+}
+.bg_coral{
+	background-color: coral;
+}
+.first_section{
+	text-align: center;
+	color: white;
+	padding: 100px 0 100px 0;
+}
+.first_section p{
+font-size: 20px;
+}
+.btn-white{
+	color: #000;
+	background-color: white;
+	border:none;
+}
+
+.service_section{
+	padding: 50px 0;
+	text-align: center;
+}
+.text_coral{
+	color: coral;
+}
+.service{
+	margin-top: 30px;
+	margin-left: 120px;
+	margin-right: 120px;
+}
+.service_title{
+	margin-top: 50px;
+}
+.overlay{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	min-height: 100%;
+	background: rgba(240, 95, 64, 0.7);
+	z-index: 100;
+	display: none;
+}
+.no_gutter{
+	padding-left: 0;
+	padding-right: 0;
+}
+.box{
+	cursor: pointer;
+}
+.box h3{
+	color: white;
+	text-align: center;
+	margin-top: 20%;
+}
+.box:hover .overlay{
+	display: block;
+}
+.portfolio img{
+	width: 100%;
+}
+.download{
+	background: #222222;
+}
+.download_section{
+	text-align: center;
+	color: white;
+	padding: 30px 0;
+}
+
+.footer{
+	text-align: center;
+	padding: 100px 0;
+}
+
+/*Media Query*/
+@media (max-width: 767px){
+	.topcreative {
+	background: url('header.jpg');
+	height: 100vh;
+	color: white;
+	text-align: center;
+	background-position: right;
+}
+.bg_coral {
+		background: #63473e;
+	}
+	.service_section {
+		display: none;
+	}
+	.creative_text {
+		position: absolute;
+		left: 0;
+		margin-top: 50%;
+		transform: translateY(-50%);
+		padding: 10px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	.bg_coral {
+		background: black;
+	}
+	.creative_text {
+		position: absolute;
+		left: 0;
+		margin-top: 50%;
+		transform: translateY(-50%);
+		padding: 10px;
+	}
+}
